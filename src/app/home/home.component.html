@@ -1,0 +1,10 @@
+
+
+      
+  
+      <input type="text" [(ngModel)]="course">
+      <h1>WELCOME TO ANGULAR.....</h1>
+
+      <h2>Thanks for joining {{course}}</h2>
+
+    <button [disabled] = '!buttonactive' (click)='changecourse()'>Apply for the course</button> <!--property binding-->
